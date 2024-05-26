@@ -1,0 +1,451 @@
+{
+  "files.autoSaveDelay": 600,
+  "notebook.output.fontFamily": "GeistMono Nerd Font Mono",
+  "notebook.markup.fontSize": 15,
+  "notebook.formatOnSave.enabled": true,
+  "notebook.compactView": true,
+  "editor.inlayHints.fontFamily": "GeistMono Nerd Font Mono",
+  "errorLens.fontFamily": "GeistMono Nerd Font Mono",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.enabled": true,
+  "workbench.statusBar.visible": true,
+  // project manager
+  "projectManager.git.baseFolders": [
+    "$home/Repos"
+  ],
+  "projectManager.sortList": "Recent",
+  // apc
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "customButtonsOnHover",
+    "frame": false,
+    "opacity": 1,
+    "transparent": true,
+    "vibrancy": "ultra-dark",
+    "visualEffectState": "active"
+  },
+  "apc.font.family": "GeistMono Nerd Font Mono",
+  "apc.parts.font.family": {
+    "sidebar": "GeistMono Nerd Font Mono",
+    "titlebar": "GeistMono Nerd Font Mono",
+    "activityBar": "GeistMono Nerd Font Mono",
+    "panel": "GeistMono Nerd Font Mono",
+    "tabs": "GeistMono Nerd Font Mono",
+    "statusbar": "GeistMono Nerd Font Mono",
+    "settings-body": "GeistMono Nerd Font Mono",
+    "extension-editor": "GeistMono Nerd Font Mono", // Required: Expected font installation on machine and Application restart
+    "monaco-menu": "GeistMono Nerd Font Mono"
+  },
+  "apc.statusBar": {
+    "position": "editor-top",
+    "height": 35,
+    "fontSize": 12
+  },
+  "apc.activityBar": {
+    "position": "top",
+    "hideSettings": true,
+    "size": 35,
+    "itemSize": 35
+  },
+  // python
+  "python.interpreter.infoVisibility": "always",
+  "python.testing.pytestEnabled": true,
+  "python.testing.cwd": "${workspaceFolder}",
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "python.languageServer": "Default",
+  "ruff.path": [
+    "/Users/narapadychhuoy/miniconda3/bin/ruff"
+  ],
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+  },
+  "[jupyter]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "files.associations": {
+    "*.bqsql": "sql",
+    "*.sql": "jinja-sql",
+    "*.ipynb": "python"
+  },
+  "[jinja-sql]": {
+    "editor.defaultFormatter": "henriblancke.vscode-dbt-formatter",
+    "editor.formatOnSave": false
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "henriblancke.vscode-dbt-formatter",
+    "editor.formatOnSave": false
+  },
+  "dbt.sqlFmtPath": "/Users/narapadychhuoy/miniconda3/bin",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Editor Setting
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "GeistMono Nerd Font Mono",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.glyphMargin": true, // make width of number line small
+  "editor.minimap.enabled": false,
+  "editor.formatOnSaveMode": "file",
+  "editor.accessibilitySupport": "off",
+  "editor.autoClosingBrackets": "always",
+  "editor.padding.top": 0,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 1.5,
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontSize": 14,
+  "editor.minimap.renderCharacters": false,
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.size": "fill",
+  "editor.rulers": [],
+  "editor.lineNumbers": "relative",
+  "editor.tabCompletion": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 3,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "ˆ": true
+  },
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "extensions.ignoreRecommendations": true,
+  // Terminal Setting
+  "terminal.integrated.fontFamily": "GeistMono Nerd Font Mono",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.smoothScrolling": true,
+  // Work bench
+  "workbench.tree.indent": 8,
+  "workbench.editor.closeEmptyGroups": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorCustomizations": {
+    "foreground": "#839496"
+  },
+  "search.useGlobalIgnoreFiles": true,
+  "search.exclude": {
+    "**/node_modules": false,
+    "node_modules": true,
+    "yarn.lock": true
+  },
+  // Vim
+  "vim.smartRelativeLine": true,
+  "vim.leader": "<Space>",
+  "vim.hlsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+    {
+      "before": [
+        "<Space>",
+        "/"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "<Space>",
+        "f"
+      ],
+      "commands": [
+        "find-it-faster.findFiles"
+      ]
+    },
+    {
+      "before": [
+        "<Space>",
+        "r"
+      ],
+      "commands": [
+        "find-it-faster.findWithinFiles"
+      ]
+    },
+    {
+      "before": [
+        "K",
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.nextInFiles"
+      ]
+    },
+    {
+      "before": [
+        "<Space>",
+        "/"
+      ],
+      "commands": [
+        "editor.action.commentLine"
+      ]
+    },
+    {
+      "before": [
+        "H"
+      ],
+      "commands": [
+        "extension.vim_ctrl+pageup"
+      ]
+    },
+    {
+      "before": [
+        "L"
+      ],
+      "commands": [
+        "extension.vim_ctrl+pagedown"
+      ]
+    },
+    {
+      "before": [
+        "<Space>",
+        "b"
+      ],
+      "commands": [
+        "editor.debug.action.toggleBreakpoint"
+      ]
+    },
+    {
+      "before": [
+        "<Space>",
+        "g"
+      ],
+      "commands": [
+        "git-graph.view"
+      ]
+    },
+    {
+      "before": [
+        "<Space>",
+        "w"
+      ],
+      "commands": [
+        "workbench.action.files.save"
+      ]
+    },
+    {
+      "before": [
+        "d",
+        ">"
+      ],
+      "after": [
+        "d",
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "c",
+        ">"
+      ],
+      "after": [
+        "c",
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "d",
+        "<"
+      ],
+      "after": [
+        "d",
+        "0"
+      ]
+    },
+    {
+      "before": [
+        "c",
+        "<"
+      ],
+      "after": [
+        "c",
+        "0"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "after": [
+        "^"
+      ]
+    },
+    {
+      "before": [
+        ">"
+      ],
+      "after": [
+        "$"
+      ]
+    },
+    {
+      "before": [
+        "d",
+        "("
+      ],
+      "after": [
+        "d",
+        "i",
+        "("
+      ]
+    },
+    {
+      "before": [
+        "c",
+        "("
+      ],
+      "after": [
+        "c",
+        "i",
+        "("
+      ]
+    },
+    {
+      "before": [
+        "d",
+        "\""
+      ],
+      "after": [
+        "d",
+        "i",
+        "\""
+      ]
+    },
+    {
+      "before": [
+        "c",
+        "\""
+      ],
+      "after": [
+        "c",
+        "i",
+        "\""
+      ]
+    },
+    {
+      "before": [
+        "d",
+        "["
+      ],
+      "after": [
+        "d",
+        "i",
+        "["
+      ]
+    },
+    {
+      "before": [
+        "c",
+        "["
+      ],
+      "after": [
+        "c",
+        "i",
+        "["
+      ]
+    },
+    {
+      "before": [
+        "<Space>",
+        "c"
+      ],
+      "commands": [
+        "workbench.action.closeActiveEditor"
+      ]
+    }
+  ],
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.includedLanguages": [
+    "python",
+    "yaml",
+    "json",
+    "sql",
+    "jinja-sql"
+  ],
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  "database-client.showUser": true,
+  "sql-formatter.dialect": "n1q1",
+  "sql-formatter.uppercase": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.showTabs": "single",
+  "editor.smoothScrolling": true,
+  "window.autoDetectColorScheme": true,
+  "window.autoDetectHighContrast": false,
+  "window.commandCenter": false,
+  "python.createEnvironment.contentButton": "hide",
+  "git.openRepositoryInParentFolders": "never",
+  "update.mode": "manual",
+  "sql-formatter.linesBetweenQueries": 1,
+  "notebook.formatOnCellExecution": true,
+  "notebook.cellToolbarVisibility": "hover",
+  "workbench.activityBar.orientation": "vertical",
+  "database-client.disableSqlCodeLenNew": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.completeFunctionParens": true,
+  "workbench.colorTheme": "Solarized Custom Dark",
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "markdown",
+    "scminput",
+    "vso",
+    "python"
+  ],
+  "python.defaultInterpreterPath": "/Users/narapadychhuoy/Repos/enfi-open-info-extraction/.venv",
+  "workbench.sideBar.location": "right",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "jetbrains-product-icons",
+}
