@@ -20,7 +20,7 @@
   "apc.electron": {
     "titleBarStyle": "customButtonsOnHover",
     "frame": false,
-    "opacity": 1,
+    "opacity": 0.95,
     "transparent": true,
     "vibrancy": "ultra-dark",
     "visualEffectState": "active"
@@ -38,15 +38,19 @@
     "monaco-menu": "GeistMono Nerd Font Mono"
   },
   "apc.statusBar": {
-    "position": "editor-top",
-    "height": 35,
+    "position": "editor-bottom",
+    "height": 30,
     "fontSize": 12
   },
   "apc.activityBar": {
-    "position": "top",
+    "position": "bottom",
     "hideSettings": true,
-    "size": 35,
-    "itemSize": 35
+    "size": 30,
+    "itemSize": 30
+  },
+  "apc.stylesheet": {
+    ".sidebar > .composite": "height: 5px !important",
+    ".inline-tabs-placeholder": "display: none !important",
   },
   // python
   "python.interpreter.infoVisibility": "always",
@@ -59,13 +63,13 @@
   ],
   "[python]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": "explicit"
-    },
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    // "editor.codeActionsOnSave": {
+    //   "source.organizeImports": "explicit"
+    // },
   },
   "[jupyter]": {
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "files.associations": {
     "*.bqsql": "sql",
@@ -121,7 +125,7 @@
   "extensions.autoUpdate": "onlyEnabledExtensions",
   "extensions.ignoreRecommendations": true,
   // Terminal Setting
-  "terminal.integrated.fontFamily": "GeistMono Nerd Font Mono",
+  "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.gpuAcceleration": "off",
   "terminal.integrated.cursorBlinking": true,
@@ -130,6 +134,7 @@
   "terminal.integrated.smoothScrolling": true,
   // Work bench
   "workbench.tree.indent": 8,
+  "workbench.settings.editor": "json",
   "workbench.editor.closeEmptyGroups": false,
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.enabled": false,
@@ -448,4 +453,5 @@
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
   "workbench.productIconTheme": "jetbrains-product-icons",
+  "workbench.preferredDarkColorTheme": "Tokyo Night Moon",
 }
